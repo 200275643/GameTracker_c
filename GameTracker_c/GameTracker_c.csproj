@@ -83,27 +83,10 @@
     <Content Include="Assets\background.jpg" />
     <Content Include="Assets\logo.jpg" />
     <Content Include="Login.aspx" />
-    <Content Include="Models\ChanduNagaModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>ChanduNagaModel.edmx</DependentUpon>
-      <LastGenOutput>ChanduNagaModel.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="Models\ChanduNagaModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>ChanduNagaModel.edmx</DependentUpon>
-      <LastGenOutput>ChanduNagaModel.cs</LastGenOutput>
-    </Content>
     <Content Include="packages.config" />
     <Content Include="Register.aspx" />
     <Content Include="Site.Master" />
     <Content Include="Scripts\jquery-2.2.3.min.map" />
-    <EntityDeploy Include="Models\ChanduNagaModel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>ChanduNagaModel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="Models\ChanduNagaModel.edmx.diagram">
-      <DependentUpon>ChanduNagaModel.edmx</DependentUpon>
-    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -168,24 +151,6 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Models\ChanduNagaModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ChanduNagaModel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\ChanduNagaModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ChanduNagaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\ChanduNagaModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ChanduNagaModel.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="Models\User_Information.cs">
-      <DependentUpon>ChanduNagaModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -216,7 +181,9 @@
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
