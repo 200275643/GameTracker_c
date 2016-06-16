@@ -17,6 +17,13 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <div class="container"> 
+            <div class="row">
+        <img src="Assets/logo.jpg" width="125" height="100" style="float:left;" /> 
+        <h1 class="title" >Captain C</h1>
+
+                </div>
+            </div>
     <bs3:Navbar runat="server" ID="PrimaryNav"></bs3:Navbar>
     <div>
         <asp:ContentPlaceHolder ID="MainContent" runat="server">

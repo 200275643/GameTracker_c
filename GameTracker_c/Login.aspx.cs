@@ -13,7 +13,7 @@ using System.Web.ModelBinding;
 
 namespace GameTracker_c
 {
-    public partial class LoginPage : System.Web.UI.Page
+    public partial class Login : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -29,7 +29,7 @@ namespace GameTracker_c
                 string username = inputUserName.Text;
                 string password = inputPassword.Text;
                 // query the Students Table using EF and LINQ
-                var User = (from UserInformation in db.UserInformation
+                var User = (from UserInformation in db.UserInformations
                             where UserInformation.username == username && UserInformation.password == password
                             select UserInformation);
 
