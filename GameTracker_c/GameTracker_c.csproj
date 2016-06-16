@@ -82,6 +82,7 @@
   <ItemGroup>
     <Content Include="Assets\background.jpg" />
     <Content Include="Assets\logo.jpg" />
+    <Content Include="CreateGamePage.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Models\ChanduNagaModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -153,6 +154,13 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CreateGamePage.aspx.cs">
+      <DependentUpon>CreateGamePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreateGamePage.aspx.designer.cs">
+      <DependentUpon>CreateGamePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

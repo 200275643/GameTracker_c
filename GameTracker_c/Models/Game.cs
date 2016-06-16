@@ -23,6 +23,6 @@ namespace GameTracker_c.Models
         public string awayteampoints { get; set; }
         public string attendance { get; set; }
         public string winningteam { get; set; }
-        public string dateplayed { get; set; }
+        public DateTime dateplayed { get; set; }
     }
 }
