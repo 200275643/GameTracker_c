@@ -24,7 +24,7 @@ namespace GameTracker_c
 
                 //check user name exists in db
 
-                var userNameCheck = (from UserInformation in db.UserInformations
+                var userNameCheck = (from UserInformation in db.User_Information
                                      where UserInformation.username == userName
                                      select UserInformation);
 
@@ -38,11 +38,11 @@ namespace GameTracker_c
                     {
                         if (password.Length > 5)
                         {
-                            UserInformation newUser = new UserInformation();
+                            User_Information newUser = new User_Information();
 
                             newUser.username = userName;
                             newUser.password = password;
-                            db.UserInformations.Add(newUser);
+                            db.User_Information.Add(newUser);
                             db.SaveChanges();
                             Response.Redirect("GameEditPage.aspx");
                         }

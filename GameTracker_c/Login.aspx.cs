@@ -29,7 +29,7 @@ namespace GameTracker_c
                 string username = inputUserName.Text;
                 string password = inputPassword.Text;
                 // query the Students Table using EF and LINQ
-                var User = (from UserInformation in db.UserInformations
+                var User = (from UserInformation in db.User_Information
                             where UserInformation.username == username && UserInformation.password == password
                             select UserInformation);
 

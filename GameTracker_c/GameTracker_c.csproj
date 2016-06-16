@@ -183,16 +183,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ChanduNagaModel.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Models\Course.cs">
-      <DependentUpon>ChanduNagaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Department.cs">
-      <DependentUpon>ChanduNagaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Student.cs">
-      <DependentUpon>ChanduNagaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\UserInformation.cs">
+    <Compile Include="Models\User_Information.cs">
       <DependentUpon>ChanduNagaModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Register.aspx.cs">
