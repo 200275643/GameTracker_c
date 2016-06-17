@@ -19,9 +19,9 @@ namespace GameTracker_c.Models
         public string venue { get; set; }
         public string hometeam { get; set; }
         public string awayteam { get; set; }
-        public string hometeampoints { get; set; }
-        public string awayteampoints { get; set; }
-        public string attendance { get; set; }
+        public int hometeampoints { get; set; }
+        public int awayteampoints { get; set; }
+        public int attendance { get; set; }
         public string winningteam { get; set; }
         public DateTime dateplayed { get; set; }
     }

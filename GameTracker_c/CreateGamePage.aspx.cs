@@ -67,15 +67,15 @@ namespace GameTracker_c
                     // get the current Game from the DB
                     newGame = (from game in db.Games where game.Id == GameID select game).FirstOrDefault();
                 }
-                // add for data to new student record
-                newGame.homeName = homeNameTextBox.Text;
-                newGame.awayName = awayNameTextBox.Text;
-                newGame.homePoints = Convert.ToInt32(homePointsTextBox.Text);
-                newGame.awayPoints = Convert.ToInt32(awayPointsTextBox.Text);
-                newGame.attendances = Convert.ToInt32(attendancesTextBox.Text);
-                newGame.stadium = stadiumTextBox.Text;
-                newGame.sportType = sportTypeTextBox.SelectedValue;
-                newGame.datePlayed = Convert.ToDateTime(datePlayedTextBox.Text);
+                // add for data to new  record
+                newGame.hometeam = hometeamTextBox.Text;
+                newGame.awayteam = awayteamTextBox.Text;
+                newGame.hometeampoints = Convert.ToInt32(hometeampointsTextBox.Text);
+                newGame.awayteampoints = Convert.ToInt32(awayteampointsTextBox.Text);
+                newGame.attendance = Convert.ToInt32(attendanceTextBox.Text);
+                newGame.venue = venueTextBox.Text;
+                newGame.gamename = gamenameTextBox.SelectedValue;
+                newGame.dateplayed = Convert.ToDateTime(dateplayedTextBox.Text);
 
                 // add a new game to Games Table Collection
                 if (GameID == -1)

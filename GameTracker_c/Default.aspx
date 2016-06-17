@@ -13,7 +13,7 @@
     <div class="container">
         <% if (Session["userName"] != null)
             { %>
-        <div style="padding: 20px"><a href="GameCreator.aspx" class="jumbotron" style="padding: 13px;"><i class="fa fa-plus fa-lg"> Add Game</i></a></div>
+        <div style="padding: 20px"><a href="CreateGamePage.aspx" class="jumbotron" style="padding: 13px;"><i class="fa fa-plus fa-lg"> Add Game</i></a></div>
         <% } %>
 
         <div class="row">
