@@ -1,5 +1,8 @@
 ﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="GameTracker_c.Contact" %>
-
+<%-- Author: Naga Rimmalapudi and Chandra Gundam
+    Stud #: 200275643 & 200277598
+    Date: June 10th, 2016
+    Description: This is Contact information page --%>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container">
         <div class="row">

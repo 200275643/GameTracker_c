@@ -8,8 +8,14 @@ using System.Web.UI.WebControls;
 using System.Web.ModelBinding;
 using GameTracker_c.Models;
 
+// Author: Naga Rimmalapudi and Chandra Reddy
+// Student #: 200277598 and 200275643
+//Date: June 0, 2016
+// Description: This page allows the registered users to create games and information in it.
+
 namespace GameTracker_c
 {
+
     public partial class CreateGamePage : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)

@@ -6,8 +6,8 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 
 /**
- * @author: Tom Tsiliopoulos
- * @date: May 26, 2016
+ * @author: Naga Rimmalapudi and Chandra Reddy
+ * @date: June 10, 2016
  * @version: 0.0.1 - added SetActivePage method
  */
 

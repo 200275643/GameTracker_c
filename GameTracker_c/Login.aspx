@@ -1,5 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="GameTracker_c.Login" %>
-
+﻿<%@ Page Title="Login" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="GameTracker_c.Login" %>
+<%-- Author: Naga Rimmalapudi and Chandra Gundam
+    Stud #: 200275643 & 200277598
+    Date: June 10th, 2016
+    Description: This page displays the login page --%>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container jumbotron">
      <div class="col-md-offset-3 col-md-6">
