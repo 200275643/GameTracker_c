@@ -14,11 +14,11 @@
           <Property Name="venue" Type="nchar" MaxLength="50" Nullable="false" />
           <Property Name="hometeam" Type="nchar" MaxLength="50" Nullable="false" />
           <Property Name="awayteam" Type="nchar" MaxLength="50" Nullable="false" />
-          <Property Name="hometeampoints" Type="nchar" MaxLength="10" Nullable="false" />
-          <Property Name="awayteampoints" Type="nchar" MaxLength="50" Nullable="false" />
-          <Property Name="attendance" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="hometeampoints" Type="int" Nullable="false" />
+          <Property Name="awayteampoints" Type="int" Nullable="false" />
+          <Property Name="attendance" Type="int" Nullable="false" />
           <Property Name="winningteam" Type="nchar" MaxLength="50" Nullable="false" />
-          <Property Name="dateplayed" Type="nchar" MaxLength="50" Nullable="false" />
+          <Property Name="dateplayed" Type="datetime" Nullable="false" />
         </EntityType>
         <EntityType Name="User_Information">
           <Key>
@@ -46,11 +46,11 @@
           <Property Name="venue" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
           <Property Name="hometeam" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
           <Property Name="awayteam" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
-          <Property Name="hometeampoints" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
-          <Property Name="awayteampoints" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
-          <Property Name="attendance" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="hometeampoints" Type="Int32" Nullable="false" />
+          <Property Name="awayteampoints" Type="Int32" Nullable="false" />
+          <Property Name="attendance" Type="Int32" Nullable="false" />
           <Property Name="winningteam" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
-          <Property Name="dateplayed" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="dateplayed" Type="DateTime" Nullable="false" Precision="3" />
         </EntityType>
         <EntityType Name="User_Information">
           <Key>
