@@ -13,15 +13,6 @@ namespace GameTracker_c {
     public partial class Default {
         
         /// <summary>
-        /// Jumbotron1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::GameTracker_c.User_Controls.Jumbotron Jumbotron1;
-        
-        /// <summary>
         /// SoccerGamesGridView control.
         /// </summary>
         /// <remarks>

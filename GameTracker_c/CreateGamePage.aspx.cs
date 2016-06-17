@@ -19,6 +19,11 @@ namespace GameTracker_c
                 this.GetGame();
             }
         }
+        public String session()
+        {
+
+            return " ";
+        }
 
         private void GetGame()
         {
@@ -75,6 +80,7 @@ namespace GameTracker_c
                 newGame.attendance = Convert.ToInt32(attendanceTextBox.Text);
                 newGame.venue = venueTextBox.Text;
                 newGame.gamename = gamenameTextBox.SelectedValue;
+                newGame.winningteam = winningTextBox.Text;
                 newGame.dateplayed = Convert.ToDateTime(dateplayedTextBox.Text);
 
                 // add a new game to Games Table Collection

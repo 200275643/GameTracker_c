@@ -18,6 +18,11 @@ body
   color:black;
  
 }
+.row{
+    margin-left:250px;
+    color:red;
+    
+}
 .btn-collapse{
     color:#212121;
     font-size: medium;

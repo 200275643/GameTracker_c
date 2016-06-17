@@ -44,7 +44,7 @@ namespace GameTracker_c
                             newUser.password = password;
                             db.User_Information.Add(newUser);
                             db.SaveChanges();
-                            Response.Redirect("GameEditPage.aspx");
+                            Response.Redirect("Default.aspx");
                         }
                         else
                         {

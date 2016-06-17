@@ -29,16 +29,17 @@ namespace GameTracker_c
                 string username = inputUserName.Text;
                 string password = inputPassword.Text;
                 // query the Students Table using EF and LINQ
-                var User = (from UserInformation in db.User_Information
-                            where UserInformation.username == username && UserInformation.password == password
-                            select UserInformation);
+                var User = (from User_Information in db.User_Information
+                            where User_Information.username == username && User_Information.password == password
+                            select User_Information);
 
                 if (User.Any())
                 {
-                    Response.Redirect("GameEditPage.aspx");
+                    Session["userName"] = username;
+                    Response.Redirect("CreateGamePage.aspx");
                 }
                 else
-                    Response.Redirect("HomePage.aspx");
+                    Response.Redirect("Default.aspx");
 
 
 

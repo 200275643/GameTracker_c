@@ -76,6 +76,15 @@ namespace GameTracker_c {
         protected global::System.Web.UI.WebControls.DropDownList gamenameTextBox;
         
         /// <summary>
+        /// winningTextBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox winningTextBox;
+        
+        /// <summary>
         /// dateplayedTextBox control.
         /// </summary>
         /// <remarks>
@@ -83,15 +92,6 @@ namespace GameTracker_c {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox dateplayedTextBox;
-        
-        /// <summary>
-        /// RangeValidator1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator RangeValidator1;
         
         /// <summary>
         /// CancelButton control.
