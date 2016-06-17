@@ -7,7 +7,7 @@
     Date: June 6th, 2016
     Description: This will be the page/form to create a game
     -->
-    <% if (Session["username"] == null) Response.Redirect("Login.aspx"); %>  <!-- user Autherization -->
+    <% if (Session["username"] == null) Response.Redirect("Login.aspx"); %>  <!-- user Authorization -->
     <div class="container jumbotron">
         <div class="col-md-offset-3 col-md-6">
             <h1>Game Details</h1>
@@ -38,6 +38,7 @@
                 <asp:TextBox runat="server" id="venueTextBox" CssClass="form-control" placeholder="Venue" required="true"></asp:TextBox>
             </div>
             <div class="form-group">
+                <%-- Drop down list --%>
                 <label class="" for="gamenameTextBox">Game Name</label>
                 <asp:DropDownList runat="server" ID="gamenameTextBox" CssClass="form-control" required="true">
                     <asp:ListItem Text="Soccer" Value="Soccer"></asp:ListItem>
