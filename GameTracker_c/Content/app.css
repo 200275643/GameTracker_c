@@ -12,6 +12,10 @@ body
   background-size: 100% 300%;
   background-repeat:no-repeat;
 }
+.text-center
+{
+    color:red;
+}
 
 .container1
 { margin-left:250px;

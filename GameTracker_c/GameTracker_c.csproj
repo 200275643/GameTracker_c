@@ -83,6 +83,7 @@
     <Content Include="Assets\background.jpg" />
     <Content Include="Assets\logo.jpg" />
     <Content Include="CreateGamePage.aspx" />
+    <Content Include="GameStats.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Logout.aspx" />
     <Content Include="Models\ChanduNagaModel.Context.tt">
@@ -169,6 +170,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GameStats.aspx.cs">
+      <DependentUpon>GameStats.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GameStats.aspx.designer.cs">
+      <DependentUpon>GameStats.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>

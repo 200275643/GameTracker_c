@@ -21,42 +21,10 @@ namespace GameTracker_c
 
             }
 
-            if (!IsPostBack)
-            {
-                this.getSoccerGame();
-            }
+            
         }
 
-        /*<summary>
-         *This Method gets the games data and puts it into the proper gridView 
-         * </summary>
-         * 
-         * @methods getGame
-         * @return {void}
-         */
-        protected void getSoccerGame()
-        {
-            using (chandureddyEntities db = new chandureddyEntities())
-            {
-                var SoccerGames = (from allSoccerGames in db.Games
-                                   where allSoccerGames.gamename == "Soccer" && allSoccerGames.dateplayed >= DateTime.Now
-                                   orderby allSoccerGames.dateplayed
-                                   select allSoccerGames);
-                SoccerGamesGridView.DataSource = SoccerGames.AsQueryable().ToList();
-                SoccerGamesGridView.DataBind();
-            }
+        
 
-        }
-
-        protected void SoccerGamesGridView_RowDeleting(object sender, GridViewDeleteEventArgs e)
-        {
-
-        }
-
-        protected void SoccerGamesGridView_PageIndexChanging(object sender, GridViewPageEventArgs e)
-        {
-            SoccerGamesGridView.PageIndex = e.NewPageIndex;
-            this.getSoccerGame();
-        }
     }
 }
