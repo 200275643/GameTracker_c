@@ -1,5 +1,9 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="GameTracker_c.Site" %>
 <%@ Register Src="~/User_Controls/Navbar.ascx" TagName="Navbar" TagPrefix="bs3" %>
+<%-- Author: Naga Rimmalapudi and Chandra Gundam
+    Stud #: 200275643 & 200277598
+    Date: June 10th, 2016
+    Description:This is the site master page for all the content pages --%>
 <!DOCTYPE html>
 <html lang="en">
 <head runat="server">
